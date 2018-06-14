@@ -1,0 +1,8 @@
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('Именно столько миллионов долларов зарабатывает рэпер Тимати за год:','1)201\n 2)301\n 3)251','201')") 
+conn.commit() 
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('Какой музыкальный лейбл России популярнее остальных?','1)Gazgolder\n 2)Black Star\n 3)MALFA’,'Black Star')") 
+conn.commit() 
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('В ремейке какого фильма снялся рэпер Noize MC?','1)Розыгрыш\n 2)Экипаж\n 3)Джентельмены удачи','Розыгрыш')") 
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('В каком коллективе выступал Батишта до начала сольной карьеры?','1)Бумбокс\n 2)БАНД’ЭРОС\n 3)Йорш',' БАНД’ЭРОС ')") 
+conn.commit() 
+c.execute("INSERT INTO tests (question, ans, correct) VALUES ('Назовите известную песню рэпера Lizer:','1)Black swan\n 2)Blach wall\n 3)Black mirror',' Black mirror ')")
